@@ -18,3 +18,5 @@ def create_model(name: str, config: any, mesh: Mesh, *, rngs: nnx.Rngs):
 # Import models to register them
 from . import resnet
 from . import yatcnn
+from . import vit
+from . import mae
